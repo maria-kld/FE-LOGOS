@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: orange;
+}
+
+.conteiner {
+  margin-top: 150px;
+  display: flex;
+  width: 100%;
+  height: 200px;
+  background: #03A9F4;
+}
+
+.background {
+  box-sizing: border-box;
+  width: 100px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgray;
+}
+
+img {
+  width: 50px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s;
+  border: 1px solid lightgray;
+}
+
+.item-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 80px;
+  position: absolute;
+  left: 100px;
+  transition: all 0.5s;
+  border: 1px solid lightgray;
+}
+
+.item:hover {
+  width: 450px;
+  border: 1px solid lightgray;
+}
+.item:hover .item-left {
+  overflow: visible;
+  left: 0px;
+  border: none;
+  transition: all 0.5s;
+}
+
+.leftside {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  left: 100px;
+  border: 1px solid lightgray;
+  height: 200px;
+  padding: 20px 10px;
+  background: white;
+  box-sizing: border-box;
+}
+
+.twitter {
+  height: 200px;
+  width: 100px;
+}
+
+.facebook {
+  background: lightblue;
+  height: 200px;
+  width: 100px;
+}
+
+.item-left-img {
+  width: 60px;
+  margin-left: 20px;
+}
+
+.linked {
+  background: rgba(18, 18, 134, 0.73);
+  height: 200px;
+  width: 100px;
+}
+
+.instagram {
+  background: rgba(197, 18, 57, 0.73);
+  height: 200px;
+  width: 100px;
+}
+
+.youtube {
+  background: red;
+  height: 200px;
+  width: 100px;
+}
+
+.tumblr {
+  background: rgba(0, 0, 139, 0.796);
+  height: 200px;
+  width: 100px;
+}
+
+.dribbble {
+  background: rgba(139, 0, 97, 0.741);
+  height: 200px;
+  width: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */
