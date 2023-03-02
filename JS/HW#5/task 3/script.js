@@ -12,3 +12,4 @@ function maxValue() {
 }
 
 maxValue(0, 5, 6);
+
