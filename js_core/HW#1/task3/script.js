@@ -22,5 +22,7 @@ function sum() {
 sum('html');
 
 
+console.log("hello world");
+
 
 
